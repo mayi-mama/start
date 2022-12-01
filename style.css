@@ -358,7 +358,7 @@ img {
     letter-spacing: 0.03em;
   }
 
-@media screen and (width-max: 767px) {
+@media screen and (max-width: 767px) {
     body {
         font-size: 15px;
     }
@@ -520,7 +520,7 @@ img {
         margin-bottom:  20px;
     }
 
-    .news-inner {
+    .news__inner {
         display: block;
     }
 
@@ -544,14 +544,14 @@ img {
         margin-right: 0;
     }
 
-    .service-heading {
+    .service__heading {
         margin-bottom: 20px;
     }
 
-    .service-heading::before{
+    .service__heading::before{
         top: -2px;
         right: -30px;
-        left: 70px;
+        font-size: 70px;
     }
 
     .service-list{
